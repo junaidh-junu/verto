@@ -1,0 +1,74 @@
+.clients {
+  background-color: var(--color-white);
+  position: relative;
+}
+
+.clients-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-subtitle {
+  font-family: var(--font-heading);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-size: var(--fs-h2);
+  font-weight: 800;
+  color: var(--color-black);
+}
+
+.clients-carousel {
+  padding: 2rem 0;
+}
+
+.client-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  padding: 2rem;
+  background-color: var(--color-light);
+  border-radius: var(--radius-md);
+  transition: var(--transition-base);
+  cursor: pointer;
+}
+
+.client-logo:hover {
+  background-color: var(--color-black);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.client-name {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-dark);
+  transition: var(--transition-base);
+}
+
+.client-logo:hover .client-name {
+  color: var(--color-white);
+}
+
+@media (max-width: 768px) {
+  .clients-header {
+    margin-bottom: 2rem;
+  }
+
+  .client-logo {
+    height: 80px;
+    padding: 1.5rem;
+  }
+
+  .client-name {
+    font-size: 1rem;
+  }
+}
