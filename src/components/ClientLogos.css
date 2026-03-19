@@ -1,80 +1,63 @@
 .clients {
-  background: linear-gradient(135deg, rgba(21, 21, 32, 0.95), rgba(10, 10, 15, 0.95));
-  position: relative;
+  background: var(--color-bg-alt);
+  overflow: hidden;
 }
 
 .clients-header {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
-.section-subtitle {
-  font-family: var(--font-heading);
-  font-size: var(--fs-small);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: var(--color-accent);
-  margin-bottom: 0.5rem;
-  text-shadow: 0 0 20px var(--color-accent-glow);
+/* Marquee */
+.clients-marquee-outer {
+  position: relative;
+  overflow: hidden;
+  padding: 1rem 0;
+  /* Fade edges */
+  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
 }
 
-.section-title {
-  font-size: var(--fs-h2);
-  font-weight: 800;
-  color: var(--color-white);
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+.clients-marquee-track {
+  display: flex;
+  gap: 2rem;
+  width: max-content;
+  animation: marqueeScroll 28s linear infinite;
 }
 
-.clients-carousel {
-  padding: 2rem 0;
+.clients-marquee-outer:hover .clients-marquee-track {
+  animation-play-state: paused;
 }
 
 .client-logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
-  padding: 2rem;
-  background: rgba(21, 21, 32, 0.6);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(0, 240, 255, 0.2);
+  height: 80px;
+  padding: 1rem 2.5rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
+  flex-shrink: 0;
   transition: var(--transition-base);
-  cursor: pointer;
+  cursor: default;
+  opacity: 0.6;
 }
 
 .client-logo:hover {
-  background: linear-gradient(135deg, rgba(0, 240, 255, 0.2), rgba(255, 0, 255, 0.2));
+  opacity: 1;
   border-color: var(--color-accent);
-  transform: translateY(-5px) scale(1.05);
-  box-shadow: 0 0 30px var(--color-accent-glow);
+  box-shadow: var(--shadow-sm);
 }
 
 .client-name {
-  font-family: var(--font-heading);
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.8);
-  transition: var(--transition-base);
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--color-text);
+  white-space: nowrap;
 }
 
 .client-logo:hover .client-name {
-  color: var(--color-white);
-  text-shadow: 0 0 20px var(--color-accent-glow);
-}
-
-@media (max-width: 768px) {
-  .clients-header {
-    margin-bottom: 2rem;
-  }
-
-  .client-logo {
-    height: 80px;
-    padding: 1.5rem;
-  }
-
-  .client-name {
-    font-size: 1rem;
-  }
+  color: var(--color-accent);
 }

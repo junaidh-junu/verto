@@ -39,7 +39,7 @@ const Awards = () => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.15,
+        staggerChildren: 0.08,
       },
     },
   };
@@ -84,7 +84,7 @@ const Awards = () => {
               key={award.id}
               className="award-card"
               variants={itemVariants}
-              whileHover={{ y: -10, transition: { duration: 0.3 } }}
+              whileHover={{ y: -4, transition: { duration: 0.25 } }}
             >
               <div className="award-icon">{award.icon}</div>
               <div className="award-year">{award.year}</div>

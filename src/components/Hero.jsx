@@ -8,85 +8,74 @@ const Hero = () => {
         <div className="hero-content">
           <motion.div
             className="hero-text"
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            transition={{ duration: 0.7, delay: 0.2 }}
           >
             <motion.p
               className="hero-greeting"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
             >
-              Creative Hello People!
+              Digital Studio
             </motion.p>
             <motion.h1
               className="hero-title"
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.6 }}
+              transition={{ duration: 0.7, delay: 0.5 }}
             >
-              We're Digital <span className="hero-title-highlight">Studio</span>
+              We Build Digital
+              <span className="hero-title-highlight">Experiences</span>
             </motion.h1>
             <motion.p
               className="hero-description"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.8 }}
+              transition={{ duration: 0.7, delay: 0.7 }}
             >
-              We craft stunning digital experiences that inspire, engage, and deliver results.
-              Let's bring your vision to life with creativity and innovation.
+              Verto crafts purposeful, beautiful digital products — from brand identity
+              to full-stack web applications — for businesses that want to stand out.
             </motion.p>
             <motion.div
               className="hero-buttons"
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 1 }}
+              transition={{ duration: 0.6, delay: 0.9 }}
             >
-              <a href="#projects" className="btn">
-                View Our Work
-              </a>
-              <a href="#contact" className="btn btn-outline">
-                Get In Touch
-              </a>
+              <a href="#projects" className="btn">View Our Work</a>
+              <a href="#contact" className="btn btn-outline">Get In Touch</a>
             </motion.div>
           </motion.div>
 
           <motion.div
-            className="hero-image"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            className="hero-visual"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.5 }}
           >
-            <div className="hero-image-wrapper">
-              <motion.div
-                className="hero-circle hero-circle-1"
-                animate={{
-                  scale: [1, 1.2, 1],
-                  rotate: [0, 180, 360],
-                }}
-                transition={{
-                  duration: 20,
-                  repeat: Infinity,
-                  ease: 'linear',
-                }}
-              />
-              <motion.div
-                className="hero-circle hero-circle-2"
-                animate={{
-                  scale: [1, 0.8, 1],
-                  rotate: [0, -180, -360],
-                }}
-                transition={{
-                  duration: 15,
-                  repeat: Infinity,
-                  ease: 'linear',
-                }}
-              />
-              <div className="hero-image-content">
-                <span className="hero-year">2024</span>
+            <div className="hero-stat-row">
+              <div className="hero-stat">
+                <div className="hero-stat-number">10+</div>
+                <div className="hero-stat-label">Years Experience</div>
+              </div>
+              <div className="hero-stat">
+                <div className="hero-stat-number">200+</div>
+                <div className="hero-stat-label">Projects Delivered</div>
               </div>
             </div>
+            <div className="hero-stat-row">
+              <div className="hero-stat">
+                <div className="hero-stat-number">50+</div>
+                <div className="hero-stat-label">Happy Clients</div>
+              </div>
+              <div className="hero-stat">
+                <div className="hero-stat-number">12</div>
+                <div className="hero-stat-label">Industry Awards</div>
+              </div>
+            </div>
+            <p className="hero-visual-tagline">"Design that speaks. Code that delivers."</p>
           </motion.div>
         </div>
 
@@ -97,14 +86,9 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 1.2 }}
         >
           <a href="#about" className="hero-scroll-link">
-            <span>Scroll Down</span>
-            <motion.div
-              className="hero-scroll-arrow"
-              animate={{ y: [0, 10, 0] }}
-              transition={{ duration: 1.5, repeat: Infinity }}
-            >
-              ↓
-            </motion.div>
+            <div className="hero-scroll-line" />
+            <span>Scroll</span>
+            <span className="hero-scroll-chevron">↓</span>
           </a>
         </motion.div>
       </div>

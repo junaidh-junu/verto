@@ -53,7 +53,7 @@ const Header = () => {
               handleNavClick('#home');
             }}
           >
-            LIKO<span>.</span>
+            Verto
           </motion.a>
 
           <ul className="nav-menu">

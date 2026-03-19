@@ -16,7 +16,7 @@ const Footer = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="footer-logo">LIKO<span>.</span></h3>
+            <h3 className="footer-logo">Verto</h3>
             <p className="footer-description">
               We are a creative digital studio focused on building amazing experiences that inspire and engage.
             </p>
@@ -87,7 +87,7 @@ const Footer = () => {
               </li>
               <li>
                 <FaEnvelope />
-                <span>hello@liko.studio</span>
+                <span>hello@verto.studio</span>
               </li>
             </ul>
           </motion.div>
@@ -101,7 +101,7 @@ const Footer = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <p className="footer-copyright">
-            &copy; {currentYear} LIKO. All rights reserved. Built with passion and creativity.
+            &copy; {currentYear} Verto. All rights reserved.
           </p>
         </motion.div>
       </div>

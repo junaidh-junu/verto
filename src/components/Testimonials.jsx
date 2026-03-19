@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
-import { FaQuoteLeft } from 'react-icons/fa';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './Testimonials.css';
@@ -43,7 +42,7 @@ const Testimonials = () => {
       <div className="container">
         <motion.div
           className="testimonials-header"
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
@@ -57,49 +56,36 @@ const Testimonials = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
         >
           <Swiper
             modules={[Autoplay, Pagination]}
-            spaceBetween={30}
+            effect="slide"
+            spaceBetween={24}
             slidesPerView={1}
             pagination={{ clickable: true }}
-            autoplay={{
-              delay: 5000,
-              disableOnInteraction: false,
-            }}
+            autoplay={{ delay: 5000, disableOnInteraction: false }}
             loop={true}
-            speed={1000}
+            speed={700}
             breakpoints={{
-              768: {
-                slidesPerView: 2,
-              },
-              1024: {
-                slidesPerView: 3,
-              },
+              768:  { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
             }}
             className="testimonials-swiper"
           >
             {testimonials.map((testimonial) => (
               <SwiperSlide key={testimonial.id}>
                 <div className="testimonial-card">
-                  <div className="testimonial-quote-icon">
-                    <FaQuoteLeft />
-                  </div>
+                  <span className="testimonial-quote">"</span>
                   <div className="testimonial-rating">
                     {[...Array(testimonial.rating)].map((_, i) => (
-                      <span key={i} className="star">
-                        ★
-                      </span>
+                      <span key={i} className="star">★</span>
                     ))}
                   </div>
                   <p className="testimonial-text">{testimonial.text}</p>
                   <div className="testimonial-author">
                     <div className="author-avatar">
-                      {testimonial.name
-                        .split(' ')
-                        .map((n) => n[0])
-                        .join('')}
+                      {testimonial.name.split(' ').map((n) => n[0]).join('')}
                     </div>
                     <div className="author-info">
                       <h4 className="author-name">{testimonial.name}</h4>

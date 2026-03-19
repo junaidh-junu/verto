@@ -4,75 +4,24 @@ import './Team.css';
 
 const Team = () => {
   const teamMembers = [
-    {
-      id: 1,
-      name: 'Sarah Johnson',
-      position: 'Creative Director',
-      initials: 'SJ',
-    },
-    {
-      id: 2,
-      name: 'Michael Chen',
-      position: 'Lead Developer',
-      initials: 'MC',
-    },
-    {
-      id: 3,
-      name: 'Emily Williams',
-      position: 'UI/UX Designer',
-      initials: 'EW',
-    },
-    {
-      id: 4,
-      name: 'David Rodriguez',
-      position: 'Marketing Manager',
-      initials: 'DR',
-    },
-    {
-      id: 5,
-      name: 'Jessica Lee',
-      position: 'Project Manager',
-      initials: 'JL',
-    },
-    {
-      id: 6,
-      name: 'James Anderson',
-      position: 'Backend Developer',
-      initials: 'JA',
-    },
-    {
-      id: 7,
-      name: 'Sophia Martinez',
-      position: 'Content Strategist',
-      initials: 'SM',
-    },
-    {
-      id: 8,
-      name: 'Ryan Thompson',
-      position: 'SEO Specialist',
-      initials: 'RT',
-    },
+    { id: 1, name: 'Sarah Johnson',   position: 'Creative Director',   initials: 'SJ' },
+    { id: 2, name: 'Michael Chen',    position: 'Lead Developer',      initials: 'MC' },
+    { id: 3, name: 'Emily Williams',  position: 'UI/UX Designer',      initials: 'EW' },
+    { id: 4, name: 'David Rodriguez', position: 'Marketing Manager',   initials: 'DR' },
+    { id: 5, name: 'Jessica Lee',     position: 'Project Manager',     initials: 'JL' },
+    { id: 6, name: 'James Anderson',  position: 'Backend Developer',   initials: 'JA' },
+    { id: 7, name: 'Sophia Martinez', position: 'Content Strategist',  initials: 'SM' },
+    { id: 8, name: 'Ryan Thompson',   position: 'SEO Specialist',      initials: 'RT' },
   ];
 
   const containerVariants = {
     hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-      },
-    },
+    visible: { opacity: 1, transition: { staggerChildren: 0.08 } },
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.5,
-      },
-    },
+    hidden:   { opacity: 0, y: 24 },
+    visible:  { opacity: 1, y: 0, transition: { duration: 0.5 } },
   };
 
   return (
@@ -80,7 +29,7 @@ const Team = () => {
       <div className="container">
         <motion.div
           className="team-header"
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
@@ -105,29 +54,22 @@ const Team = () => {
               className="team-member"
               variants={itemVariants}
             >
-              <div className="team-member-inner">
-                <div className="team-member-front">
-                  <div className="member-avatar">
-                    <span>{member.initials}</span>
-                  </div>
-                  <h3 className="member-name">{member.name}</h3>
-                  <p className="member-position">{member.position}</p>
+              <div className="team-member-card">
+                <div className="member-avatar">
+                  <span>{member.initials}</span>
                 </div>
-                <div className="team-member-back">
-                  <div className="member-social">
-                    <a href="#" className="social-link" aria-label="LinkedIn">
-                      <FaLinkedin />
-                    </a>
-                    <a href="#" className="social-link" aria-label="Twitter">
-                      <FaTwitter />
-                    </a>
-                    <a href="#" className="social-link" aria-label="GitHub">
-                      <FaGithub />
-                    </a>
-                  </div>
-                  <p className="member-bio">
-                    Passionate about creating amazing digital experiences.
-                  </p>
+                <h3 className="member-name">{member.name}</h3>
+                <p className="member-position">{member.position}</p>
+                <div className="member-social">
+                  <a href="#" className="social-link" aria-label="LinkedIn">
+                    <FaLinkedin />
+                  </a>
+                  <a href="#" className="social-link" aria-label="Twitter">
+                    <FaTwitter />
+                  </a>
+                  <a href="#" className="social-link" aria-label="GitHub">
+                    <FaGithub />
+                  </a>
                 </div>
               </div>
             </motion.div>
