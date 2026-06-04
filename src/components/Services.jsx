@@ -35,7 +35,7 @@ const Services = () => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2,
+        staggerChildren: 0.08,
       },
     },
   };
@@ -80,8 +80,9 @@ const Services = () => {
               key={service.id}
               className="service-card"
               variants={itemVariants}
-              whileHover={{ y: -10, transition: { duration: 0.3 } }}
+              whileHover={{ y: -4, transition: { duration: 0.25 } }}
             >
+              <span className="service-number">0{service.id}</span>
               <div className="service-icon">{service.icon}</div>
               <h3 className="service-title">{service.title}</h3>
               <p className="service-description">{service.description}</p>

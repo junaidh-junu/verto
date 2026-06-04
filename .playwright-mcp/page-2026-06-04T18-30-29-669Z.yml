@@ -1,0 +1,298 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "Verto" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - text: Verto
+    - generic [ref=e6]:
+      - link "Home" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - link "Work" [ref=e8] [cursor=pointer]:
+        - /url: /work
+      - link "Services" [ref=e9] [cursor=pointer]:
+        - /url: /services
+      - link "About" [ref=e10] [cursor=pointer]:
+        - /url: /about
+    - generic [ref=e11]:
+      - link "Start a project" [ref=e12] [cursor=pointer]:
+        - /url: /contact
+        - text: Start a project
+      - button "Menu" [ref=e14] [cursor=pointer]
+  - generic [ref=e16]:
+    - link "Home" [ref=e17] [cursor=pointer]:
+      - /url: /
+    - link "Work" [ref=e18] [cursor=pointer]:
+      - /url: /work
+    - link "Services" [ref=e19] [cursor=pointer]:
+      - /url: /services
+    - link "About" [ref=e20] [cursor=pointer]:
+      - /url: /about
+    - link "Contact" [ref=e21] [cursor=pointer]:
+      - /url: /contact
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: Creative studio · Est. 2014
+        - paragraph [ref=e27]: A multidisciplinary studio shaping brands, packaging and campaigns for companies that refuse to blend in.
+      - heading "Crafting pixels that move brands forward." [level=1] [ref=e28]:
+        - generic [ref=e30]: Crafting
+        - generic [ref=e42]:
+          - emphasis [ref=e43]: pixels
+          - text: that move
+        - generic [ref=e45]: brands forward.
+      - generic [ref=e46]:
+        - link "See our work ↗" [ref=e47] [cursor=pointer]:
+          - /url: /work
+          - text: See our work
+          - generic [ref=e48]: ↗
+        - link "Start a project" [ref=e49] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e50]: Scroll to explore
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - text: Loom & Co
+        - generic [ref=e56]: ✦
+      - generic [ref=e57]:
+        - text: Saaru Foods
+        - generic [ref=e58]: ✦
+      - generic [ref=e59]:
+        - text: Northbank
+        - generic [ref=e60]: ✦
+      - generic [ref=e61]:
+        - text: Vire Studios
+        - generic [ref=e62]: ✦
+      - generic [ref=e63]:
+        - text: Marigold
+        - generic [ref=e64]: ✦
+      - generic [ref=e65]:
+        - text: Kessler & Park
+        - generic [ref=e66]: ✦
+      - generic [ref=e67]:
+        - text: Atlas Tea
+        - generic [ref=e68]: ✦
+      - generic [ref=e69]:
+        - text: Hodei
+        - generic [ref=e70]: ✦
+      - generic [ref=e71]:
+        - text: Loom & Co
+        - generic [ref=e72]: ✦
+      - generic [ref=e73]:
+        - text: Saaru Foods
+        - generic [ref=e74]: ✦
+      - generic [ref=e75]:
+        - text: Northbank
+        - generic [ref=e76]: ✦
+      - generic [ref=e77]:
+        - text: Vire Studios
+        - generic [ref=e78]: ✦
+      - generic [ref=e79]:
+        - text: Marigold
+        - generic [ref=e80]: ✦
+      - generic [ref=e81]:
+        - text: Kessler & Park
+        - generic [ref=e82]: ✦
+      - generic [ref=e83]:
+        - text: Atlas Tea
+        - generic [ref=e84]: ✦
+      - generic [ref=e85]:
+        - text: Hodei
+        - generic [ref=e86]: ✦
+    - generic [ref=e89]:
+      - generic [ref=e91]: Brand building
+      - generic [ref=e94]: Packaging
+      - generic [ref=e97]: Campaigns
+      - generic [ref=e100]: Print
+      - generic [ref=e103]: Brand building
+      - generic [ref=e106]: Packaging
+      - generic [ref=e109]: Campaigns
+      - generic [ref=e112]: Print
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - heading "What we make together" [level=2] [ref=e117]:
+          - text: What we
+          - text: make together
+        - paragraph [ref=e118]: Six disciplines, one obsessive standard. We plug in where you need us — or run the whole show end to end.
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - generic [ref=e121]: "01"
+          - generic [ref=e122]: Brand Building
+          - generic [ref=e123]:
+            - generic [ref=e124]: Identity
+            - generic [ref=e125]: Strategy
+            - generic [ref=e126]: Guidelines
+        - generic [ref=e127]:
+          - generic [ref=e128]: "02"
+          - generic [ref=e129]: Packaging Design
+          - generic [ref=e130]:
+            - generic [ref=e131]: Structure
+            - generic [ref=e132]: Label
+            - generic [ref=e133]: Retail
+        - generic [ref=e134]:
+          - generic [ref=e135]: "03"
+          - generic [ref=e136]: Media & Advertising
+          - generic [ref=e137]:
+            - generic [ref=e138]: Campaigns
+            - generic [ref=e139]: Social
+            - generic [ref=e140]: Film
+        - generic [ref=e141]:
+          - generic [ref=e142]: "04"
+          - generic [ref=e143]: Print Management
+          - generic [ref=e144]:
+            - generic [ref=e145]: Production
+            - generic [ref=e146]: Finishing
+        - generic [ref=e147]:
+          - generic [ref=e148]: "05"
+          - generic [ref=e149]: Digital & Web
+          - generic [ref=e150]:
+            - generic [ref=e151]: Sites
+            - generic [ref=e152]: Product
+            - generic [ref=e153]: Motion
+        - generic [ref=e154]:
+          - generic [ref=e155]: "06"
+          - generic [ref=e156]: Wedding Cards
+          - generic [ref=e157]:
+            - generic [ref=e158]: Bespoke
+            - generic [ref=e159]: Letterpress
+    - generic [ref=e161]:
+      - generic [ref=e162]:
+        - heading "Selected work" [level=2] [ref=e163]
+        - paragraph [ref=e164]: A few brands we've helped turn heads.
+      - generic [ref=e165]:
+        - link "01 ↗ Saaru Foods Packaging · Brand '25" [ref=e166] [cursor=pointer]:
+          - /url: /work
+          - generic [ref=e169]: "01"
+          - generic: ↗
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - heading "Saaru Foods" [level=3] [ref=e172]
+              - generic [ref=e173]: Packaging · Brand
+            - generic [ref=e174]: "'25"
+        - link "02 ↗ Northbank Identity · Web '25" [ref=e175] [cursor=pointer]:
+          - /url: /work
+          - generic [ref=e178]: "02"
+          - generic: ↗
+          - generic [ref=e179]:
+            - generic [ref=e180]:
+              - heading "Northbank" [level=3] [ref=e181]
+              - generic [ref=e182]: Identity · Web
+            - generic [ref=e183]: "'25"
+        - link "03 ↗ Atlas Tea Packaging · Print '24" [ref=e184] [cursor=pointer]:
+          - /url: /work
+          - generic [ref=e187]: "03"
+          - generic: ↗
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - heading "Atlas Tea" [level=3] [ref=e190]
+              - generic [ref=e191]: Packaging · Print
+            - generic [ref=e192]: "'24"
+        - link "04 ↗ Vire Studios Campaign · Film '24" [ref=e193] [cursor=pointer]:
+          - /url: /work
+          - generic [ref=e196]: "04"
+          - generic: ↗
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - heading "Vire Studios" [level=3] [ref=e199]
+              - generic [ref=e200]: Campaign · Film
+            - generic [ref=e201]: "'24"
+      - link "View all projects ↗" [ref=e203] [cursor=pointer]:
+        - /url: /work
+        - text: View all projects
+        - generic [ref=e204]: ↗
+    - generic [ref=e208]:
+      - generic [ref=e209]:
+        - generic [ref=e210]: "0"
+        - generic [ref=e211]: Years crafting brands that last
+      - generic [ref=e212]:
+        - generic [ref=e213]: "0"
+        - generic [ref=e214]: Projects shipped across 9 countries
+      - generic [ref=e215]:
+        - generic [ref=e216]: "0"
+        - generic [ref=e217]: Industry awards & features
+      - generic [ref=e218]:
+        - generic [ref=e219]: "0"
+        - generic [ref=e220]: Clients who come back for more
+    - generic [ref=e222]:
+      - generic [ref=e223]:
+        - generic [ref=e224]: How we work
+        - heading "A process built to adapt." [level=2] [ref=e225]:
+          - text: A process
+          - text: built to
+          - emphasis [ref=e226]: adapt
+          - text: .
+        - paragraph [ref=e227]: Verto means "to turn." We shape our process around your problem — never the other way around.
+      - generic [ref=e228]:
+        - generic [ref=e229]:
+          - generic [ref=e230]:
+            - generic [ref=e231]: "01"
+            - heading "Discover" [level=3] [ref=e232]
+          - paragraph [ref=e233]: We dig into your market, audience and ambitions until the real problem is impossible to ignore.
+        - generic [ref=e234]:
+          - generic [ref=e235]:
+            - generic [ref=e236]: "02"
+            - heading "Define" [level=3] [ref=e237]
+          - paragraph [ref=e238]: A sharp strategy and a creative platform everyone can rally behind — the north star for every pixel that follows.
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - generic [ref=e241]: "03"
+            - heading "Design" [level=3] [ref=e242]
+          - paragraph [ref=e243]: Identity, packaging, campaign and screen — crafted in tight loops with you, never over a wall.
+        - generic [ref=e244]:
+          - generic [ref=e245]:
+            - generic [ref=e246]: "04"
+            - heading "Deliver" [level=3] [ref=e247]
+          - paragraph [ref=e248]: Production-ready files, print supervision and launch support, so the work lands exactly as intended.
+    - generic [ref=e251]:
+      - generic [ref=e252]: "\""
+      - blockquote [ref=e253]:
+        - text: Verto didn't just redesign us — they
+        - emphasis [ref=e254]: reframed how the market sees us.
+      - generic [ref=e257]:
+        - generic [ref=e258]: Ananya Rao
+        - generic [ref=e259]: Founder, Saaru Foods
+    - generic [ref=e261]:
+      - generic [ref=e262]: Got something brewing?
+      - heading "Let's make something worth looking at." [level=2] [ref=e263]:
+        - text: Let's make
+        - text: something
+        - emphasis [ref=e264]: worth
+        - text: looking at.
+      - generic [ref=e265]:
+        - link "Start a project ↗" [ref=e266] [cursor=pointer]:
+          - /url: /contact
+          - text: Start a project
+          - generic [ref=e267]: ↗
+        - link "hello@verto.studio" [ref=e268] [cursor=pointer]:
+          - /url: mailto:hello@verto.studio
+  - contentinfo [ref=e269]:
+    - generic [ref=e270]:
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - link "Verto" [ref=e273] [cursor=pointer]:
+            - /url: /
+            - text: Verto
+          - paragraph [ref=e275]: Crafting pixels that move brands forward. A creative studio for the bold.
+        - generic [ref=e276]:
+          - heading "Sitemap" [level=4] [ref=e277]
+          - link "Home" [ref=e278] [cursor=pointer]:
+            - /url: /
+          - link "Work" [ref=e279] [cursor=pointer]:
+            - /url: /work
+          - link "Services" [ref=e280] [cursor=pointer]:
+            - /url: /services
+          - link "About" [ref=e281] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e282] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e283]:
+          - heading "Elsewhere" [level=4] [ref=e284]
+          - link "Instagram" [ref=e285] [cursor=pointer]:
+            - /url: "#"
+          - link "Behance" [ref=e286] [cursor=pointer]:
+            - /url: "#"
+          - link "LinkedIn" [ref=e287] [cursor=pointer]:
+            - /url: "#"
+          - link "Dribbble" [ref=e288] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e289]:
+        - generic [ref=e290]: © 2026 Verto Studio — Crafting Pixels
+        - generic [ref=e291]: Made with intent · Kochi · Worldwide
+    - generic [ref=e293]: VERTO

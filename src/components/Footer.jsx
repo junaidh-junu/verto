@@ -1,112 +1,42 @@
-import { motion } from 'framer-motion';
-import { FaLinkedin, FaTwitter, FaGithub, FaInstagram, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
-import './Footer.css';
+import { Link } from 'react-router-dom';
 
-const Footer = () => {
-  const currentYear = new Date().getFullYear();
-
+export default function Footer() {
   return (
-    <footer className="footer" id="contact">
-      <div className="container">
-        <div className="footer-content">
-          <motion.div
-            className="footer-col footer-about"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <h3 className="footer-logo">LIKO<span>.</span></h3>
-            <p className="footer-description">
-              We are a creative digital studio focused on building amazing experiences that inspire and engage.
+    <footer className="footer" data-accent="coral">
+      <div className="wrap">
+        <div className="footer-grid">
+          <div>
+            <Link className="brand" to="/" style={{ color: 'var(--canvas)', marginBottom: '24px' }}>
+              <span className="mark"></span>Verto
+            </Link>
+            <p style={{ color: '#ffffffaa', maxWidth: '300px', marginTop: '8px' }}>
+              Crafting pixels that move brands forward. A creative studio for the bold.
             </p>
-            <div className="footer-social">
-              <a href="#" className="social-icon" aria-label="LinkedIn">
-                <FaLinkedin />
-              </a>
-              <a href="#" className="social-icon" aria-label="Twitter">
-                <FaTwitter />
-              </a>
-              <a href="#" className="social-icon" aria-label="GitHub">
-                <FaGithub />
-              </a>
-              <a href="#" className="social-icon" aria-label="Instagram">
-                <FaInstagram />
-              </a>
-            </div>
-          </motion.div>
-
-          <motion.div
-            className="footer-col"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-          >
-            <h4 className="footer-title">Services</h4>
-            <ul className="footer-links">
-              <li><a href="#services">UI/UX Design</a></li>
-              <li><a href="#services">Web Development</a></li>
-              <li><a href="#services">Mobile Apps</a></li>
-              <li><a href="#services">Digital Marketing</a></li>
-            </ul>
-          </motion.div>
-
-          <motion.div
-            className="footer-col"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
-            <h4 className="footer-title">Company</h4>
-            <ul className="footer-links">
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#team">Our Team</a></li>
-              <li><a href="#projects">Portfolio</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </motion.div>
-
-          <motion.div
-            className="footer-col"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-          >
-            <h4 className="footer-title">Contact</h4>
-            <ul className="footer-contact">
-              <li>
-                <FaMapMarkerAlt />
-                <span>123 Creative Street, Design City</span>
-              </li>
-              <li>
-                <FaPhone />
-                <span>+1 (555) 123-4567</span>
-              </li>
-              <li>
-                <FaEnvelope />
-                <span>hello@liko.studio</span>
-              </li>
-            </ul>
-          </motion.div>
+          </div>
+          <div className="footer-col">
+            <h4>Sitemap</h4>
+            <Link to="/">Home</Link>
+            <Link to="/work">Work</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+          </div>
+          <div className="footer-col">
+            <h4>Elsewhere</h4>
+            <a href="#">Instagram</a>
+            <a href="#">Behance</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Dribbble</a>
+          </div>
         </div>
-
-        <motion.div
-          className="footer-bottom"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-        >
-          <p className="footer-copyright">
-            &copy; {currentYear} LIKO. All rights reserved. Built with passion and creativity.
-          </p>
-        </motion.div>
+        <div className="footer-bottom">
+          <span>© 2026 Verto Studio — Crafting Pixels</span>
+          <span>Made with intent · Kochi · Worldwide</span>
+        </div>
+      </div>
+      <div className="wrap">
+        <div className="big" style={{ marginBottom: '-.16em' }}>VERTO</div>
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}
