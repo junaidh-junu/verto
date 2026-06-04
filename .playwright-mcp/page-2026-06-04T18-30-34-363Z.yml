@@ -1,0 +1,290 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "Verto" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - text: Verto
+    - generic [ref=e6]:
+      - link "Home" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - link "Work" [ref=e8] [cursor=pointer]:
+        - /url: /work
+      - link "Services" [ref=e9] [cursor=pointer]:
+        - /url: /services
+      - link "About" [ref=e10] [cursor=pointer]:
+        - /url: /about
+    - generic [ref=e11]:
+      - link "Start a project" [ref=e12] [cursor=pointer]:
+        - /url: /contact
+        - text: Start a project
+      - button "Menu" [ref=e14] [cursor=pointer]
+  - generic [ref=e16]:
+    - link "Home" [ref=e17] [cursor=pointer]:
+      - /url: /
+    - link "Work" [ref=e18] [cursor=pointer]:
+      - /url: /work
+    - link "Services" [ref=e19] [cursor=pointer]:
+      - /url: /services
+    - link "About" [ref=e20] [cursor=pointer]:
+      - /url: /about
+    - link "Contact" [ref=e21] [cursor=pointer]:
+      - /url: /contact
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - generic [ref=e25]: The studio · Est. 2014
+      - heading "We turn ideas into pixels." [level=1] [ref=e26]:
+        - generic [ref=e28]: We turn ideas
+        - generic [ref=e30]:
+          - text: into
+          - emphasis [ref=e31]: pixels.
+    - generic [ref=e33]:
+      - paragraph [ref=e34]: A multidisciplinary studio that helps brands turn — from where they are to where they need to be.
+      - generic [ref=e35]:
+        - paragraph [ref=e36]: "Verto started in 2014 with a stubborn belief: good design isn't decoration, it's a business advantage. Over a decade later, that belief still runs everything we make."
+        - paragraph [ref=e37]: We're a tight team of strategists, designers and makers working across brand, packaging, advertising and print. Small enough to care about every pixel, sharp enough to ship work that performs.
+        - paragraph [ref=e38]:
+          - text: The name says it best.
+          - emphasis [ref=e39]: Verto
+          - text: — Latin for "to turn, to change." We exist to help ambitious companies change how the world sees them. Not cosmetically. Fundamentally.
+        - paragraph [ref=e40]: We don't do trends. We do rigour — and we stay with you until the work lands exactly as intended, in every market and on every surface.
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - generic [ref=e45]: "0"
+        - generic [ref=e46]: Years in business
+      - generic [ref=e47]:
+        - generic [ref=e48]: "0"
+        - generic [ref=e49]: Projects delivered
+      - generic [ref=e50]:
+        - generic [ref=e51]: "0"
+        - generic [ref=e52]: People in the studio
+      - generic [ref=e53]:
+        - generic [ref=e54]: "0"
+        - generic [ref=e55]: Countries served
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - text: Loom & Co
+        - generic [ref=e60]: ✦
+      - generic [ref=e61]:
+        - text: Saaru Foods
+        - generic [ref=e62]: ✦
+      - generic [ref=e63]:
+        - text: Northbank
+        - generic [ref=e64]: ✦
+      - generic [ref=e65]:
+        - text: Vire Studios
+        - generic [ref=e66]: ✦
+      - generic [ref=e67]:
+        - text: Marigold
+        - generic [ref=e68]: ✦
+      - generic [ref=e69]:
+        - text: Kessler & Park
+        - generic [ref=e70]: ✦
+      - generic [ref=e71]:
+        - text: Atlas Tea
+        - generic [ref=e72]: ✦
+      - generic [ref=e73]:
+        - text: Hodei
+        - generic [ref=e74]: ✦
+      - generic [ref=e75]:
+        - text: Solaris Energy
+        - generic [ref=e76]: ✦
+      - generic [ref=e77]:
+        - text: Wavr Audio
+        - generic [ref=e78]: ✦
+      - generic [ref=e79]:
+        - text: Loom & Co
+        - generic [ref=e80]: ✦
+      - generic [ref=e81]:
+        - text: Saaru Foods
+        - generic [ref=e82]: ✦
+      - generic [ref=e83]:
+        - text: Northbank
+        - generic [ref=e84]: ✦
+      - generic [ref=e85]:
+        - text: Vire Studios
+        - generic [ref=e86]: ✦
+      - generic [ref=e87]:
+        - text: Marigold
+        - generic [ref=e88]: ✦
+      - generic [ref=e89]:
+        - text: Kessler & Park
+        - generic [ref=e90]: ✦
+      - generic [ref=e91]:
+        - text: Atlas Tea
+        - generic [ref=e92]: ✦
+      - generic [ref=e93]:
+        - text: Hodei
+        - generic [ref=e94]: ✦
+      - generic [ref=e95]:
+        - text: Solaris Energy
+        - generic [ref=e96]: ✦
+      - generic [ref=e97]:
+        - text: Wavr Audio
+        - generic [ref=e98]: ✦
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "How we think" [level=2] [ref=e102]:
+          - text: How we
+          - text: think
+        - paragraph [ref=e103]: Three principles we refuse to compromise on — whatever the brief, whatever the budget.
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - generic [ref=e107]: / 01
+          - generic [ref=e108]:
+            - heading "Strategy first" [level=3] [ref=e109]
+            - paragraph [ref=e110]: Every pixel earns its place. We start with the problem, the market and the audience — never with a trend. Decoration without direction is just noise.
+        - generic [ref=e111]:
+          - generic [ref=e113]: / 02
+          - generic [ref=e114]:
+            - heading "Craft obsessed" [level=3] [ref=e115]
+            - paragraph [ref=e116]: The 2% nobody notices is the 2% that makes work feel premium. We sweat the kerning, the dieline, the paper finish, the press run. It shows.
+        - generic [ref=e117]:
+          - generic [ref=e119]: / 03
+          - generic [ref=e120]:
+            - heading "Built to adapt" [level=3] [ref=e121]
+            - paragraph [ref=e122]: We shape our process around your problem. No rigid templates, no design-by-committee — just the right tool, the right team, and the right outcome.
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - heading "The people behind it" [level=2] [ref=e126]:
+          - text: The people
+          - text: behind it
+        - paragraph [ref=e127]: Six makers, one standard.
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - generic [ref=e132]: Ravi Menon
+          - generic [ref=e133]: Founder · Creative Director
+          - paragraph [ref=e134]: 11 years shaping brands that move markets. Obsessed with the idea that design is a business tool, not a styling exercise.
+        - generic [ref=e135]:
+          - generic [ref=e138]: Nila Thomas
+          - generic [ref=e139]: Design Lead
+          - paragraph [ref=e140]: Leads identity and packaging work. Former NID graduate with a razor eye for type and a deep love for paper finishes.
+        - generic [ref=e141]:
+          - generic [ref=e144]: Arjun Pillai
+          - generic [ref=e145]: Strategy & Brand
+          - paragraph [ref=e146]: Connects business goals to creative briefs. Believes a strong brief is already half the design done.
+        - generic [ref=e147]:
+          - generic [ref=e150]: Sara Koshy
+          - generic [ref=e151]: Packaging & Print
+          - paragraph [ref=e152]: Runs every press run and dieline review. The reason our packaging always ships looking exactly like the approved proof.
+        - generic [ref=e153]:
+          - generic [ref=e156]: Devika Nair
+          - generic [ref=e157]: Digital & Motion
+          - paragraph [ref=e158]: Brings brands to life on screen — websites, motion systems, social kits. She thinks in interactions, not just frames.
+        - generic [ref=e159]:
+          - generic [ref=e162]: Kiran Iyer
+          - generic [ref=e163]: Campaigns & Copy
+          - paragraph [ref=e164]: Writes headlines people remember and art-directs campaigns people talk about. Formerly JWT and Leo Burnett.
+    - generic [ref=e166]:
+      - generic [ref=e167]:
+        - heading "A decade of turning" [level=2] [ref=e168]:
+          - text: A decade
+          - text: of turning
+        - paragraph [ref=e169]: From a two-person studio in Kochi to a team of 14 working across 9 countries.
+      - generic [ref=e170]:
+        - generic [ref=e171]:
+          - generic [ref=e172]: "2014"
+          - generic [ref=e174]:
+            - heading "Founded in Kochi" [level=3] [ref=e175]
+            - paragraph [ref=e176]: "Ravi Menon starts Verto with one collaborator and a single belief — that rigorous design is a business advantage, not a luxury. First client: a heritage textile brand in Kerala."
+        - generic [ref=e177]:
+          - generic [ref=e178]: "2016"
+          - generic [ref=e180]:
+            - heading "First national packaging brief" [level=3] [ref=e181]
+            - paragraph [ref=e182]: Atlas Tea — a full packaging system for a premium loose-leaf range — becomes Verto's first project to hit national retail shelves. The work wins recognition at the India Design Mark awards.
+        - generic [ref=e183]:
+          - generic [ref=e184]: "2018"
+          - generic [ref=e186]:
+            - heading "Studio expands to 8 people" [level=3] [ref=e187]
+            - paragraph [ref=e188]: Dedicated strategy, packaging and digital disciplines established. The studio begins taking on D2C brand builds alongside its packaging work — and ships its first bespoke wedding card suite.
+        - generic [ref=e189]:
+          - generic [ref=e190]: "2021"
+          - generic [ref=e192]:
+            - heading "First international project" [level=3] [ref=e193]
+            - paragraph [ref=e194]: "Northbank Financial (Singapore) becomes the studio's first international brand build. The project opens Verto to a new category: financial services identity done without the corporate clichés."
+        - generic [ref=e195]:
+          - generic [ref=e196]: "2023"
+          - generic [ref=e198]:
+            - heading "Campaigns practice launched" [level=3] [ref=e199]
+            - paragraph [ref=e200]: Kiran Iyer joins from Leo Burnett and the studio formalises its campaigns discipline. Vire Studios becomes the first brand film produced entirely in-house — scoring 4M+ views in the first week.
+        - generic [ref=e201]:
+          - generic [ref=e202]: "2026"
+          - generic [ref=e204]:
+            - heading "14 people, 9 countries, still refusing to blend in" [level=3] [ref=e205]
+            - paragraph [ref=e206]: "240+ projects. 38 industry recognitions. And the same stubborn belief we started with: design should change how the world sees a brand — not just how it looks."
+    - generic [ref=e208]:
+      - generic [ref=e209]:
+        - heading "Awards & recognition" [level=2] [ref=e210]:
+          - text: Awards &
+          - text: recognition
+        - paragraph [ref=e211]: 38 wins across industry bodies — but the real test is still the shelf.
+      - generic [ref=e212]:
+        - generic [ref=e213]:
+          - generic [ref=e214]: "2025"
+          - generic [ref=e215]: Brand of the Year — Small Studio
+          - generic [ref=e216]: India Brand Council
+        - generic [ref=e217]:
+          - generic [ref=e218]: "2025"
+          - generic [ref=e219]: Gold — Packaging Design
+          - generic [ref=e220]: Kyoorius Design Awards
+        - generic [ref=e221]:
+          - generic [ref=e222]: "2024"
+          - generic [ref=e223]: Best Integrated Campaign
+          - generic [ref=e224]: Abby Awards
+        - generic [ref=e225]:
+          - generic [ref=e226]: "2024"
+          - generic [ref=e227]: Silver — Brand Identity
+          - generic [ref=e228]: Kyoorius Design Awards
+        - generic [ref=e229]:
+          - generic [ref=e230]: "2023"
+          - generic [ref=e231]: Design Mark — Packaging
+          - generic [ref=e232]: India Design Mark, NID
+        - generic [ref=e233]:
+          - generic [ref=e234]: "2022"
+          - generic [ref=e235]: Communication Design Excellence
+          - generic [ref=e236]: CII Design Excellence Awards
+    - generic [ref=e238]:
+      - generic [ref=e239]: Like how we think?
+      - heading "Let's work together." [level=2] [ref=e240]:
+        - text: Let's
+        - emphasis [ref=e241]: work
+        - text: together.
+      - generic [ref=e242]:
+        - link "Start a project ↗" [ref=e243] [cursor=pointer]:
+          - /url: /contact
+          - text: Start a project
+          - generic [ref=e244]: ↗
+        - link "See the work" [ref=e245] [cursor=pointer]:
+          - /url: /work
+  - contentinfo [ref=e246]:
+    - generic [ref=e247]:
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - link "Verto" [ref=e250] [cursor=pointer]:
+            - /url: /
+            - text: Verto
+          - paragraph [ref=e252]: Crafting pixels that move brands forward. A creative studio for the bold.
+        - generic [ref=e253]:
+          - heading "Sitemap" [level=4] [ref=e254]
+          - link "Home" [ref=e255] [cursor=pointer]:
+            - /url: /
+          - link "Work" [ref=e256] [cursor=pointer]:
+            - /url: /work
+          - link "Services" [ref=e257] [cursor=pointer]:
+            - /url: /services
+          - link "About" [ref=e258] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e259] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e260]:
+          - heading "Elsewhere" [level=4] [ref=e261]
+          - link "Instagram" [ref=e262] [cursor=pointer]:
+            - /url: "#"
+          - link "Behance" [ref=e263] [cursor=pointer]:
+            - /url: "#"
+          - link "LinkedIn" [ref=e264] [cursor=pointer]:
+            - /url: "#"
+          - link "Dribbble" [ref=e265] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e266]:
+        - generic [ref=e267]: © 2026 Verto Studio — Crafting Pixels
+        - generic [ref=e268]: Made with intent · Kochi · Worldwide
+    - generic [ref=e270]: VERTO

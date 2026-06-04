@@ -102,10 +102,15 @@ export function useVertoBehaviors(pathname) {
     }
 
     // Duplicate marquees (clone nodes, no innerHTML)
+    const marqueeCleanups = [];
     document.querySelectorAll('.marquee-track:not([data-dup])').forEach(t => {
+      const originalCount = t.children.length;
       t.dataset.dup = '1';
-      const children = Array.from(t.children);
-      children.forEach(child => t.appendChild(child.cloneNode(true)));
+      Array.from(t.children).forEach(child => t.appendChild(child.cloneNode(true)));
+      marqueeCleanups.push(() => {
+        while (t.children.length > originalCount) t.removeChild(t.lastChild);
+        delete t.dataset.dup;
+      });
     });
 
     // Magnetic buttons (desktop only)
@@ -139,10 +144,7 @@ export function useVertoBehaviors(pathname) {
       window.removeEventListener('scroll', onScroll);
       window.removeEventListener('resize', onScroll);
       cleanupMagnetic.forEach(fn => fn());
-      // Clear dup markers so they're re-duped on next page
-      document.querySelectorAll('.marquee-track[data-dup]').forEach(t => {
-        delete t.dataset.dup;
-      });
+      marqueeCleanups.forEach(fn => fn());
     };
   }, [pathname]);
 }
